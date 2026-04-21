@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Array 1</title>
+        <script lang="JavaScript">
+
+            let a=new Array(1,2,3,4,5);
+            let str=new Array('b','a','e','c','d');
+
+            let b=a.reverse();
+            document.write(b+"<br>");
+
+            let c=str.sort();
+            document.write(c+"<br>");
+
+            let d=a.push(6);
+            document.write(a+"<br>");
+
+            let e=a.pop();
+            document.write(a+"<br>");
+
+            let f=str.join("*");
+            document.write(str+"<br>");
+
+             function addition(a,b)
+            {
+                c=a+b;
+                return(c);
+            }
+
+            
+            document.write("addition value="+addition(5,4)+"<br>");
+
+
+            function factorial(n)
+            {
+                var f=1;
+                while(n!=0)
+                {
+                    f=f*n;
+                    n--;
+                }
+                return(f);
+            }
+            document.write("factorial value="+factorial(5)+"<br>"); 
+
+        </script>
+    </head>
+    <body bgcolor="yellow" text="green"></body>
+</html>
